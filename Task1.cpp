@@ -20,7 +20,7 @@ int average(int* arr, int size) {
 	{
 		sum2 += arr[i]; //배열에 저장된 숫자들의 합계
 	}
-		ever = sum2 / 5; //배열에 저장된 숫자들의 평균
+	ever = sum2 / 5; //배열에 저장된 숫자들의 평균
 	return ever;
 }
 
@@ -40,8 +40,8 @@ int main() {
 
 	add(data, 5);
 	average(data, 5);
-	cout << add(data,5) << endl;
+	cout << add(data, 5) << endl;
 	cout << average(data, 5) << endl;
-	
+
 	return 0;
 }
